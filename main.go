@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main () {
-	fmt.Println("Hello, World!")
+	"github.com/palafrank/edgar"
+)
+
+func main() {
+	fmt.Println("Package search")
 }
+
+
